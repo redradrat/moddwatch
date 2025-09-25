@@ -9,3 +9,7 @@ require (
 )
 
 require golang.org/x/sys v0.33.0 // indirect
+
+replace github.com/rjeczalik/notify => github.com/redradrat/notify v0.9.4-0.20250925105936-8de79287ca97
+
+// replace github.com/rjeczalik/notify v0.9.3 => ../notify
